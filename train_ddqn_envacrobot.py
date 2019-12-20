@@ -1,10 +1,5 @@
 # Sangeeth - 12/14/2019 -  Training Double Deep Q Learning Keras model for Acrobot-v1 environment.
 
-# Please note that my model gave good results using just two episodes. Howveer it doesnt give that good results
-# every time i run/train the model. Therefore I saved the Neural network model the time when it gave good result.
-# Now this trained model can be loaded in test_dqn_acrobat_1.py and the agent using this network acheives the objective
-# every time.
-
 import keras
 import gym, datetime, time
 import random
